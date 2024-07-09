@@ -57,7 +57,15 @@ def show_summary(ocel):
     col5.metric("Events-Objects Relationships", parsed_summary["events_objects_relationships"])
 
     # Show summary in a collapsible box with beautiful formatting
-    with st.popover("Summary"):
+    col1, col2, col3, col4, col5 = st.columns(5)
+    # Show used method
+    with col2.popover("Method"):
+        st.markdown("""
+                    ##### Method: `get_summary() -> str`
+                    Gets a string summary of the object-centric event log
+                    """)
+    # Show summary
+    with col1.popover("Summary"):
         st.write(summary_text)
 
     # Convert the occurrences dictionaries to DataFrames
