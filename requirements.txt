@@ -1,0 +1,5 @@
+# required packages
+streamlit 
+pm4py 
+pandas 
+plotly
