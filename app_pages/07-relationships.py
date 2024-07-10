@@ -15,4 +15,5 @@ if 'ocel' not in st.session_state:
     st.warning("Please upload an OCEL event log first on the Upload page.")
 else:
     ocel = st.session_state['ocel']
+    st.title("OCEL 2.0 - Event to Object Relationships")
     show_relationships(ocel)

@@ -6,8 +6,6 @@ import pandas as pd
 st.set_page_config(page_title="OCEL 2.0 - Object Types", layout="wide")
 
 def show_object_statistics(ocel):
-    st.title('OCEL - Object Types')
-
     # Show the amount of object types
     object_types = pm4py.ocel_get_object_types(ocel)
     num_object_types = len(object_types)
@@ -39,4 +37,5 @@ if 'ocel' not in st.session_state:
     st.warning("Please upload an OCEL event log first on the Upload page.")
 else:
     ocel = st.session_state['ocel']
+    st.title('OCEL - Object Types')
     show_object_statistics(ocel)
