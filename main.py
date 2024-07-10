@@ -15,7 +15,8 @@ pages = {
         st.Page("app_pages/05-event_types.py", title="Event Types", icon=":material/event:"), #TODO
         st.Page("app_pages/06-events.py", title="Events", icon=":material/event_list:"), #TODO
         st.Page("app_pages/07-relationships.py", title="Event Object Relationships", icon=":material/merge_type:"),
-        st.Page("app_pages/08-interactions.py", title="Object Interactions", icon=":material/family_history:") # TODO
+        st.Page("app_pages/08-interactions.py", title="Object Interactions", icon=":material/family_history:"), # TODO
+        st.Page("app_pages/09-variant_analysis.py", title="Test")
     ], 
     "Process Discovery" : [
         st.Page("app_pages/20-process_discovery_ocdfg.py", title="Object Centric Direct Follows Graph", icon=":material/hub:"), #TODO

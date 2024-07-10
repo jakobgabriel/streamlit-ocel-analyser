@@ -53,7 +53,7 @@ else:
     # Interactive fields for Object Graph Visualization
     st.sidebar.header("Object Graph Visualization Settings")
     
-    graph_type = st.sidebar.selectbox("Graph Type", options=["object_interaction", "object_descendants", "object_inheritance", "object_cobirth", "object_codeath"], index=0)
+    graph_type = st.sidebar.selectbox("Graph Type", options=["object_descendants", "object_interaction", "object_inheritance", "object_cobirth", "object_codeath"], index=0)
     format = st.sidebar.selectbox("Format", options=["png", "svg", "dot"], index=0)
     bgcolor = st.sidebar.color_picker("Background Color", value="#FFFFFF")
     rankdir = st.sidebar.selectbox("Rank Direction", options=["LR", "TB"], index=0)

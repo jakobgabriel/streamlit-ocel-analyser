@@ -4,3 +4,4 @@ pm4py==2.7.11.11
 pandas 
 plotly
 matplotlib
+networkx
