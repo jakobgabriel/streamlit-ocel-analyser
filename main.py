@@ -22,7 +22,7 @@ pages = {
     "OCEL - Other Visualizations" : [
         st.Page("app_pages/ocel/visualization/07-relationships.py", title="Event Object Relationships", icon=":material/merge_type:"),
         st.Page("app_pages/ocel/visualization/08-interactions.py", title="Object Interactions", icon=":material/family_history:"), # TODO
-        st.Page("app_pages/ocel/visualization/09-variant_analysis.py", title="Variant Analysis")
+        st.Page("app_pages/ocel/visualization/09-variant_analysis.py", title="Variant Analysis", icon=":material/variable_insert:")
     ],
     "OCEL - Process Discovery" : [
         st.Page("app_pages/ocel/process_discovery/20-process_discovery_ocdfg.py", title="Object Centric Direct Follows Graph", icon=":material/hub:"), #TODO
@@ -32,11 +32,11 @@ pages = {
         st.Page("app_pages/xes/conversion/01-event_flattening.py", title="Event Log Flattening", icon=":material/iron:")
     ], 
     "XES - Visualization": [
-        st.Page("app_pages/xes/visualization/01-dotted_chart.py", title="Dotted Chart", icon=":material/event:"),
-        st.Page("app_pages/xes/visualization/02-process_tree.py", title="Process Tree", icon=":material/event:"),
-        st.Page("app_pages/xes/visualization/03-case_duration_graph.py", title="Case Duration Graph", icon=":material/event:"),
-        st.Page("app_pages/xes/visualization/04-event_distribution_graph.py", title="Event Distribution Graph", icon=":material/event:"),
-        st.Page("app_pages/xes/visualization/05-performance_spectrum.py", title="Performance Spectrum", icon=":material/event:")
+        st.Page("app_pages/xes/visualization/01-dotted_chart.py", title="Dotted Chart", icon=":material/scatter_plot:"),
+        st.Page("app_pages/xes/visualization/02-process_tree.py", title="Process Tree", icon=":material/account_tree:"),
+        st.Page("app_pages/xes/visualization/03-case_duration_graph.py", title="Case Duration Graph", icon=":material/progress_activity:"),
+        st.Page("app_pages/xes/visualization/04-event_distribution_graph.py", title="Event Distribution Graph", icon=":material/horizontal_distribute:"),
+        st.Page("app_pages/xes/visualization/05-performance_spectrum.py", title="Performance Spectrum", icon=":material/key_visualizer:")
     ]
 }
 

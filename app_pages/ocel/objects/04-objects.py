@@ -36,11 +36,6 @@ def show_objects_summary(ocel):
     objects_summary = pm4py.ocel.ocel_objects_summary(ocel)
     
     st.subheader("Objects Summary")
-    with st.expander("Method"):
-        st.markdown("""
-                    ##### Method: `pm4py.ocel.ocel_objects_summary(ocel: OCEL) → DataFrame`
-                    Gets the objects summary of an object-centric event log
-                    """)
     st.dataframe(objects_summary)
 
 # Streamlit page structure

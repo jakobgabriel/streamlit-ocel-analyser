@@ -58,12 +58,7 @@ def show_summary(ocel):
 
     # Show summary in a collapsible box with beautiful formatting
     col1, col2, col3, col4, col5 = st.columns(5)
-    # Show used method
-    with col2.popover("Method"):
-        st.markdown("""
-                    ##### Method: `get_summary() -> str`
-                    Gets a string summary of the object-centric event log
-                    """)
+
     # Show summary
     with col1.popover("Summary"):
         st.write(summary_text)
